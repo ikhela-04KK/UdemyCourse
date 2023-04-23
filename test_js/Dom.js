@@ -11,7 +11,7 @@ let select = document.querySelectorAll("p")
 for (const element of select){
 	(function(select){
 
-		window.setInterval(function(){
+		setInterval(function(){
 			select.classList.toggle("red")
 		},1000)
 
